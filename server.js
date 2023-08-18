@@ -7,7 +7,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send(`tp_sql RESTAPI`);
+    res.send(`Salut à toi jeune entrepreneur!`);
 });
 
 app.use('/api/tp_sql', stageRoutes);
