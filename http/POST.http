@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/tp_sql/etudiant/
+Content-Type: application/json
+
+{
+  "noEtudiant": 9,
+  "nomEtu": "Lucas",
+  "tuteurPresent": 1,
+  "idEntreprise": 4,
+  "idProfesseur": 99
+}
